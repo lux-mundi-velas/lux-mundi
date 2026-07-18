@@ -168,11 +168,3 @@ Adicione um arquivo `LICENSE` com a licença escolhida (por exemplo, MIT). Se qu
 Abra uma issue no repositório ou envie um e-mail para o responsável pelo projeto.
 
 ---
-
-Arquivo atualizado: [README.md](README.md)
-
-Quer que eu também:
-
-- gere um `LICENSE` (MIT),
-- adicione um `package.json` com scripts úteis (`dev`, `build`, `optimize`),
-- crie um workflow básico de CI (`.github/workflows/ci.yml`)?
