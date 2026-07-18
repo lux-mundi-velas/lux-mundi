@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lux Mundi | Serenidade em cada chama</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo-link" href="https://www.instagram.com/luxmundi_velasday" aria-label="Ir para a página inicial">
+        <img src="./assets/logo/full-logo-no-background.png" alt="Logo lux mundi" class="logo" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="header-menu" id="site-nav">
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#home">Home</a>
+          <a href="#produtos">Produtos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <div class="header-actions">
+          <a class="button button-primary js-redirect" href="#" data-action="whatsapp"
+            data-message="Olá! Quero conversar com a Lux Mundi sobre velas artesanais e fragrâncias.">Fale conosco</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-media">
+        <video autoplay muted loop playsinline class="hero-video" poster="./assets/images/animation-hero3.png">
+          <source src="./assets/videos/animation-hero3.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>
+      <div class="hero-content container">
+        <p class="eyebrow">Lux Mundi</p>
+        <h1>Serenidade em cada chama</h1>
+        <p class="hero-copy">
+          Velas artesanais que transformam seu ambiente em um refúgio de paz e sofisticação.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary js-redirect" href="#" data-action="instagram">Conheça nossos produtos</a>
+          <a class="button button-secondary js-redirect" href="#" data-action="whatsapp"
+            data-message="Olá! Quero falar com a Lux Mundi para escolher uma vela ou fragrância ideal para o meu ambiente.">Fale
+            no WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos" class="featured-products section">
+      <div class="container section-header">
+        <span class="section-label">Coleção Exclusiva</span>
+        <h2>Destaques da Temporada</h2>
+      </div>
+
+      <div class="product-grid container">
+        <article class="product-card">
+          <span class="product-chip">Floral</span>
+          <img src="assets/images/placeholder-01.jpg" alt="Vela branca em cerâmica" />
+          <div class="product-copy">
+            <h3>Brisa de Lavanda</h3>
+            <p>Notas suaves que trazem o frescor dos campos franceses para o seu lar.</p>
+            <a href="#" class="link-button js-redirect" data-action="instagram">Saiba mais</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="product-chip">Amadeirado</span>
+          <img src="assets/images/placeholder-02.jpg" alt="Vela Lux Mundi em copo escuro" />
+          <div class="product-copy">
+            <h3>Noite de Cedro</h3>
+            <p>Uma fragrância intensa e terrosa para momentos de introspecção e foco.</p>
+            <a href="#" class="link-button js-redirect" data-action="instagram">Saiba mais</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="product-chip">Cítrico</span>
+          <img src="assets/images/placeholder-03.jpg" alt="Vela âmbar com mesa decorativa" />
+          <div class="product-copy">
+            <h3>Pôr do Sol Cítrico</h3>
+            <p>Energia e vivacidade através de notas de bergamota e limão siciliano.</p>
+            <a href="#" class="link-button js-redirect" data-action="instagram">Saiba mais</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="categories section">
+      <div class="container section-header">
+        <h2>Explore por Categoria</h2>
+        <p>Encontre a peça perfeita para cada canto do seu santuário.</p>
+      </div>
+
+      <div class="categories-grid container">
+        <article class="category-card">
+          <img src="assets/images/placeholder-04.jpg" alt="Fé e conexão" />
+          <div class="category-copy">
+            <h3 class="category-title">Fé e Conexão</h3>
+            <!-- <p class="category-subtitle">Descubra velas que transformam qualquer ambiente em um refúgio sensorial.</p> -->
+            <a href="#" class="link-button js-redirect" data-action="instagram">Ver Categoria</a>
+          </div>
+        </article>
+
+        <article class="category-card">
+          <img src="assets/images/placeholder-05.jpg" alt="casa e aconchego" />
+          <div class="category-copy">
+            <h3 class="category-title">Casa e Aconchego</h3>
+            <!-- <p class="category-subtitle">Aromas sofisticados que prolongam a sensação de bem-estar.</p> -->
+            <a href="#" class="link-button js-redirect" data-action="instagram">Ver Categoria</a>
+          </div>
+        </article>
+
+        <article class="category-card">
+          <img src="assets/images/placeholder-06.jpg" alt="Difusores de ambiente" />
+          <div class="category-copy">
+            <h3 class="category-title">Memórias e Afeto</h3>
+            <!-- <p class="category-subtitle">Seleções especiais prontas para encantar em cada ocasião.</p> -->
+            <a href="#" class="link-button js-redirect" data-action="instagram">Ver Categoria</a>
+          </div>
+        </article>
+
+        <article class="category-card category-card-wide">
+          <img src="assets/images/placeholder-07.jpg" alt="Objetos decorativos em ambiente sofisticado" />
+          <div class="category-copy">
+            <h3 class="category-title">Velas Decorativas</h3>
+            <p class="category-subtitle">Peças selecionadas para compor ambientes luxuosos e acolhedores.</p>
+            <a href="#" class="link-button js-redirect" data-action="whatsapp"
+              data-message="Olá! Quero conhecer os detalhes das velas e o atendimento da Lux Mundi.">Conheça os
+              detalhes</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre" class="about-section section">
+      <div class="container about-grid">
+        <figure class="about-image">
+          <img src="./assets/images/essencia.jpg" alt="Processo de criação artesanal de velas" />
+        </figure>
+        <div class="about-copy">
+          <span class="section-label">Nossa essência</span>
+          <h2>Artesanato que ilumina alma e espaço.</h2>
+          <!-- <p>
+              Na Lux Mundi, acreditamos que a luz de uma vela é mais do que iluminação —
+              é um convite à presença. Cada peça é feita à mão utilizando ceras vegetais e
+              essências premium, garantindo uma queima limpa e uma perfumação envolvente.
+            </p> -->
+          <p>Sempre acreditei que a memória afetiva é construída nos detalhes: no cheiro da casa da avó, na vela acesa
+            durante uma oração, no aroma que marca um recomeço.</p>
+          <p>Eu queria criar algo que proporcionasse pausas em meio à
+            rotina acelerada, algo que convidasse à presença, à conexão e ao sentir.</p>
+          <p>Todas as velas da Lux Mundi são aromáticas porque o olfato é o sentido que mais desperta lembranças.
+            Cada fragrância carrega uma intenção: acolher, celebrar, agradecer, renovar.</p>
+          <blockquote>
+            “A Lux Mundi nasceu da minha paixão por aquilo que toca a alma sem fazer barulho.”
+          </blockquote>
+          <!-- <a class="button button-primary" href="#contato">Descubra nossa história</a> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="journey-section section">
+      <div class="container section-header">
+        <span class="section-label">Experiência olfativa</span>
+        <h2>Sua Jornada Lux Mundi</h2>
+      </div>
+
+      <div class="journey-grid container">
+        <article class="journey-step">
+          <img src="./assets/icons/icon-step1.png" alt="Icone da primeira etapa" class="step-icon">
+          <h3>Escolha seus aromas</h3>
+          <p>Explore nossa curadoria de fragrâncias exclusivas e selecione os acordes que melhor ressoam com sua
+            personalidade e ambiente.</p>
+        </article>
+        <article class="journey-step">
+          <img src="./assets/icons/icon-step2.png" alt="Icone da primeira etapa" class="step-icon">
+          <h3>Atendimento Premium</h3>
+          <p>Conclua sua escolha via WhatsApp com nossa consultoria personalizada, garantindo que cada detalhe do seu
+            pedido seja impecável.</p>
+        </article>
+        <article class="journey-step">
+          <img src="./assets/icons/icon-step3.png" alt="Icone da primeira etapa" class="step-icon">
+          <h3>Receba em Casa</h3>
+          <p>Sua encomenda é preparada artesanalmente e enviada com todo cuidado em embalagens luxuosas, prontas para
+            transformar seu lar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <div class="container section-header">
+        <span class="section-label">Testemunhos</span>
+        <h2>O que dizem nossos clientes</h2>
+      </div>
+
+      <div class="testimonial-grid container">
+        <article class="testimonial-card">
+          <p class="testimonial-stars">★★★★★</p>
+          <p class="testimonial-content">
+            “O aroma ‘Lumière de Soir’ transformou completamente o clima da minha sala. É uma experiência de luxo que
+            nunca encontrei em outras marcas.”
+          </p>
+          <p class="testimonial-author">Helena Cavalcanti<br /><span>Designer de Interiores</span></p>
+        </article>
+
+        <article class="testimonial-card">
+          <p class="testimonial-stars">★★★★★</p>
+          <p class="testimonial-content">
+            “O atendimento via WhatsApp foi impecável. Senti que estava em uma boutique em Paris. A embalagem é um
+            presente à parte.”
+          </p>
+          <p class="testimonial-author">Ricardo Mendonça<br /><span>Empresário</span></p>
+        </article>
+
+        <article class="testimonial-card">
+          <p class="testimonial-stars">★★★★★</p>
+          <p class="testimonial-content">
+            “Qualidade incomparável. Os óleos essenciais são puros e a fixação do perfume no ambiente dura horas. Lux
+            Mundi é minha nova paixão.”
+          </p>
+          <p class="testimonial-author">Beatriz Soares<br /><span>Arquiteta</span></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="unboxing-section section">
+      <article class="container unboxing-content">
+        <img src="assets/images/unboxing.jpg" alt="Umboxing Lux Mundi" />
+        <div class="unboxing-overlay">
+          <div>
+            <span class="section-label">Luxo & Atendimento</span>
+            <h2>Transforme seu lar hoje</h2>
+            <p>
+              Nossos especialistas estão prontos para ajudá-lo a escolher a fragrância perfeita e criar um ritual
+              sensorial exclusivo.
+            </p>
+          </div>
+          <div class="unboxing-actions">
+            <a class="button button-primary js-redirect" href="#" data-action="whatsapp"
+              data-message="Olá! Quero agendar uma consultoria da Lux Mundi para escolher a fragrância ideal para a minha casa.">WhatsApp
+              Consultoria</a>
+            <a class="button button-secondary js-redirect" href="#" data-action="instagram">Ver coleções</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contato">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home">Lux Mundi</a>
+        <p>Elevando o ordinário ao extraordinário através de fragrâncias e luz.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/luxmundi_velasday"
+             class="social-link"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Visitar Instagram da Lux Mundi">
+            <img src="./assets/icons/instagram.svg" alt="Ícone do Instagram" class="icon-instagram" />
+            <span class="instagram-handle">@luxmundi_velasday</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h3>Navegação</h3>
+          <a href="#home">Home</a>
+          <a href="#produtos">Coleções</a>
+          <a href="#sobre">Fragrâncias</a>
+          <a href="#sobre">Sobre Nós</a>
+        </div>
+        <div>
+          <h3>Suporte</h3>
+          <a href="#">Envios</a>
+          <a href="#">Termos</a>
+          <a href="#">Privacidade</a>
+          <a href="#">Contato</a>
+        </div>
+      </div>
+      <div class="footer-newsletter">
+        <h3>Newsletter</h3>
+        <p>Receba convites para lançamentos exclusivos.</p>
+        <form id="newsletter-form">
+          <label for="newsletter-email" class="sr-only">Seu melhor e-mail</label>
+          <input id="newsletter-email" name="email" type="email" placeholder="Seu melhor e-mail" required />
+          <button type="submit" class="button button-icon button-secondary">Enviar</button>
+        </form>
+        <p id="newsletter-message" class="newsletter-message" aria-live="polite"></p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2024 Lux Mundi. Luminous Sophistication.</p>
+      <p>Atelier São Paulo · Artesanal & Vegan</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
