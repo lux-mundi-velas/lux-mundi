@@ -1,0 +1,173 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: transform var(--transition), background-color var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.button-primary {
+  background: var(--secondary);
+  color: var(--on-secondary);
+}
+
+.button-primary:hover,
+.button-primary:focus-visible {
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+  transform: translateY(-1px);
+}
+
+.button-secondary {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.button-secondary:hover,
+.button-secondary:focus-visible {
+  border-color: var(--secondary);
+  background: #ffffff96;
+  color: var(--secondary);
+}
+
+.button-ghost {
+  background: transparent;
+  color: var(--inverse-surface);
+  border: 1px solid rgba(27, 28, 28, 0.12);
+}
+
+.button-ghost:hover,
+.button-ghost:focus-visible {
+  background: rgba(71, 96, 131, 0.08);
+}
+
+.button-icon {
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.link-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.link-button:hover,
+.link-button:focus-visible {
+  text-decoration: underline;
+}
+
+.product-card,
+.category-card,
+.testimonial-card,
+.journey-step,
+.about-copy {
+  background: var(--surface);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-soft);
+}
+
+.product-card,
+.category-card,
+.testimonial-card,
+.journey-step {
+  overflow: hidden;
+}
+
+.product-card {
+  position: relative;
+}
+
+.product-card img,
+.category-card img,
+.about-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-copy,
+.category-copy,
+.testimonial-card,
+.journey-step {
+  padding: 1.75rem;
+}
+
+.product-copy h3,
+.journey-step h3,
+.testimonial-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.product-copy p,
+.journey-step p,
+.testimonial-card p {
+  color: var(--on-surface-variant);
+}
+
+.product-chip {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 9999px;
+  background: rgba(29, 29, 29, 0.82);
+  color: #fff8e7;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(4px);
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+input[type='email'] {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid rgba(27, 28, 28, 0.12);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--on-surface);
+}
+
+input[type='email']::placeholder {
+  color: rgba(27, 28, 28, 0.45);
+}
+
+input[type='email']:focus {
+  outline: 2px solid rgba(212, 175, 55, 0.35);
+  border-color: var(--primary-container);
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+.category-copy h3 {
+  color: var(--on-primary);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+.category-copy a {
+  color: var(--on-primary);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.category-copy p {
+  color: var(--on-primary);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
