@@ -26,8 +26,6 @@ O objetivo do projeto é servir como um protótipo visual e repositório central
 - JavaScript vanilla em `js/main.js`
 - Recursos estáticos em `assets/` (imagens, ícones, logo, vídeos)
 
-Observação: atualmente não há build tool configurada (npm, bundler). Posso adicionar um `package.json` com scripts para lint, minify e otimização, se desejar.
-
 ## Estrutura do projeto
 
 - `index.html` — página principal do protótipo
@@ -130,10 +128,6 @@ npx http-server -p 8000
 - Rodar `axe-core` para checagem de acessibilidade.
 - Validar HTML com um validador W3C.
 
-## Integração contínua (exemplo GitHub Actions)
-
-Recomendo um workflow simples que executa checks em PRs: validação de HTML, lint de CSS e execução de Lighthouse em modo headless. Posso adicionar um arquivo `.github/workflows/ci.yml` com etapas exemplares.
-
 ## Padrões de código e commits
 
 - HTML semântico e BEM opcional para classes.
@@ -147,10 +141,6 @@ Recomendo um workflow simples que executa checks em PRs: validação de HTML, li
 3. Faça commits limpos e atômicos.
 4. Abra Pull Request e solicite revisão.
 
-## Versionamento e changelog
-
-- Use tags Git (`v0.1.0`) e mantenha um `CHANGELOG.md` para releases importantes.
-
 ## Checklist pré-produção
 
 - [ ] Otimizar imagens e mídia
@@ -161,18 +151,8 @@ Recomendo um workflow simples que executa checks em PRs: validação de HTML, li
 
 ## Licença
 
-Adicione um arquivo `LICENSE` com a licença escolhida (por exemplo, MIT). Se quiser, eu crio o `LICENSE` automaticamente.
-
+Adicione um arquivo `LICENSE` com a licença escolhida (por exemplo, MIT).
 ## Contato
 
 Abra uma issue no repositório ou envie um e-mail para o responsável pelo projeto.
 
----
-
-Arquivo atualizado: [README.md](README.md)
-
-Quer que eu também:
-
-- gere um `LICENSE` (MIT),
-- adicione um `package.json` com scripts úteis (`dev`, `build`, `optimize`),
-- crie um workflow básico de CI (`.github/workflows/ci.yml`)?
